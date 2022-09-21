@@ -1,5 +1,5 @@
-import random
-num = random.randint(0, 5)
+from random import randint
+num = randint(0, 5)
 n = int(input('Entre 0 e 5, adivinhe o número escolhido pelo computador: '))
 if n == num:
     print('UAU! Você venceu!')
